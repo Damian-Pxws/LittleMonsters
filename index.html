@@ -3,43 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LittleMonsters - Bot de Discord</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>LittleMonsters - Bot de Discord y Minecraft</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="img/logo.png" alt="LittleMonsters Logo" class="logo">
+
+    <header class="hero">
+        <img src="https://i.imgur.com/6oKxH4R.png" alt="LittleMonsters Logo" class="logo">
         <h1>LittleMonsters</h1>
-        <p>El bot de discord perfecto para gestionar tu servidor de DC y Minecraft basado en Little Monsters.</p>
-        <a href="https://discord.com/api/oauth2/authorize?client_id=TU_CLIENT_ID&permissions=8&scope=bot%20applications.commands" class="button">Invitar al Bot</a>
-        <a href="#comandos" class="button">Ver Comandos</a>
+        <p>El bot de Discord perfecto para gestionar tu servidor de Discord y Minecraft.</p>
+        <div class="buttons">
+            <a href="https://discord.com/api/oauth2/authorize?client_id=TU_CLIENT_ID&permissions=8&scope=bot%20applications.commands" target="_blank" class="btn">Invitar al Bot</a>
+            <a href="#comandos" class="btn btn-secondary">Ver Comandos</a>
+        </div>
     </header>
 
-    <main>
-        <section id="comandos">
-            <h2>Principales Comandos</h2>
-            <ul>
-                <li><strong>/anuncio</strong> - Configura el sistema de anuncios.</li>
-                <li><strong>/ban</strong> - Expulsa a un usuario.</li>
-                <li><strong>/canjear</strong> - Convierte tus puntos en recompensas.</li>
-                <li><strong>/descartickets</strong> - La moderación del servidor puede descargar cualquier ticket creado con el bot.</li>
-                <li><strong>/kick</strong> - Expulsa a un usuario.</li>
-                <li><strong>/mute</strong> - Silencia temporalmente a un usuario.</li>
-                <li><strong>/ping</strong> - Revisa la latencia de quien lo usa.</li>
-                <li><strong>/puntos</strong> - Muestra la cantidad de puntos de un usuario.</li>
-                <li><strong>/recompensa</strong> - Muestra las recompensas disponibles para canjear los puntos.</li>
-                <li><strong>/recordatorio</strong> - Crea recordatorios personalizados.</li>
-                <li><strong>/vertickets</strong> - Muestra a la moderación la lista de tickets disponibles para descargar.</li>
-                <li><strong>/votacion</strong> - Crea una votación en el servidor.</li>
-                <li><strong>/warn</strong> - Advierte a un usuario.</li>
-                <li><strong>/warnings</strong> - Muestra la lista de advertencias de un usuario.</li>
-            </ul>
-        </section>
-    </main>
+    <section id="comandos" class="commands">
+        <h2>📜 Principales Comandos</h2>
+        <ul>
+            <li><strong>/anuncio</strong> - Configura el sistema de anuncios.</li>
+            <li><strong>/ban</strong> - Expulsa a un usuario.</li>
+            <li><strong>/canjear</strong> - Convierte tus puntos en recompensas.</li>
+            <li><strong>/descargarticket</strong> - Descarga cualquier ticket guardado.</li>
+            <li><strong>/kick</strong> - Expulsa a un usuario.</li>
+            <li><strong>/mute</strong> - Silencia temporalmente a un usuario.</li>
+            <li><strong>/ping</strong> - Verifica la latencia del bot.</li>
+            <li><strong>/puntos</strong> - Muestra tus puntos actuales.</li>
+            <li><strong>/recompensas</strong> - Muestra las recompensas disponibles.</li>
+            <li><strong>/recordatorio</strong> - Crea recordatorios personalizados.</li>
+            <li><strong>/vertickets</strong> - Muestra los tickets guardados.</li>
+            <li><strong>/votacion</strong> - Crea votaciones en el servidor.</li>
+            <li><strong>/warn</strong> - Advierte a un usuario.</li>
+            <li><strong>/warnings</strong> - Muestra las advertencias de un usuario.</li>
+        </ul>
+    </section>
 
     <footer>
-        <a href="privacy.html">Política de Privacidad</a> |
-        <a href="terms.html">Términos de Servicio</a>
+        <p>&copy; 2025 LittleMonsters. <a href="terms.html">Términos y Condiciones</a> | <a href="privacy.html">Política de Privacidad</a></p>
     </footer>
+
 </body>
 </html>
